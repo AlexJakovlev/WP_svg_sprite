@@ -95,7 +95,7 @@
 }
 /* Всплывающее окно */	
  
-.svg-parent_popup, .svg-parent_popup_click {
+.svg-parent_popup, .svg-parent_popup_click , .preloader_svg {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
   position: fixed;
@@ -165,4 +165,24 @@
 }
 .svg-close:hover {
     background-color: rgba(255, 69, 0, 0.8);
+}
+
+.preloader_svg{
+	background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.preloader_svg > div  {
+	/*background-color: red;*/
+	/*height: 10%;*/
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 5%;
 }
