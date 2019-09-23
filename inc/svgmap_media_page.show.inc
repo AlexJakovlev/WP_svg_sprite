@@ -91,7 +91,9 @@
 					type: 'POST',
 					data: dataParams,
 					beforeSend : function (){
-						$('#svg-submit').text('Загрузка, 5 сек...');	
+						$('#preloader_svg').css("display","block");
+						$('#svg-submit').text('Загрузка, 5 сек...');
+
 					},
 					success: function( data ) {
 						var s = jQuery.parseJSON(data);
@@ -118,7 +120,7 @@
 							};
 						};
 						$('#svg-submit').text(svg_submit_text);	
-						console.log(s);
+						$('#preloader_svg').css("display","none");
 					}
 				});
 			});
@@ -140,5 +142,9 @@
 				this.style.width = ((this.value.length) * 8)+8 + 'px';
 			});
 
+			var preloader_svg = "<div id='preloader_svg' class='preloader_svg'><div><img src='<?php echo ($svgmap->svg_url."/preloader.svg")?>'></div></div>";
+			$( preloader_svg ).insertAfter( "#svg-parent_popup_click" );
+
 		});
 	</script>
+

@@ -1,0 +1,25 @@
+<svg enable-background="new 0 0 100 100" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <circle transform="rotate(-43 50 50)" cx="50" cy="50" r="47" fill="none" stroke="#0a0000" stroke-dasharray="14.2472,14.2472" stroke-miterlimit="15" stroke-width="6">
+  <animateTransform attributeName="transform" attributeType="XML" dur="5s" from="0 50 50" repeatCount="indefinite" to="360 50 50" type="rotate"/>
+ </circle>
+ <circle transform="rotate(43 50 50)" cx="50" cy="50" r="39" fill="none" stroke="#000" stroke-dasharray="10,10" stroke-miterlimit="10">
+  <animateTransform attributeName="transform" attributeType="XML" dur="5s" from="0 50 50" repeatCount="indefinite" to="-360 50 50" type="rotate"/>
+ </circle>
+ <g>
+  <rect transform="translate(0 -1.2)" x="30" y="35" width="5" height="30">
+   <animateTransform attributeName="transform" begin="0.1" dur="1s" repeatCount="indefinite" type="translate" values="0 5 ; 0 -5; 0 5"/>
+  </rect>
+  <rect transform="translate(0 .81)" x="40" y="35" width="5" height="30">
+   <animateTransform attributeName="transform" begin="0.2" dur="1s" repeatCount="indefinite" type="translate" values="0 5 ; 0 -5; 0 5"/>
+  </rect>
+  <rect transform="translate(0 2.8)" x="50" y="35" width="5" height="30">
+   <animateTransform attributeName="transform" begin="0.3" dur="1s" repeatCount="indefinite" type="translate" values="0 5 ; 0 -5; 0 5"/>
+  </rect>
+  <rect transform="translate(0 4.8)" x="60" y="35" width="5" height="30">
+   <animateTransform attributeName="transform" begin="0.4" dur="1s" repeatCount="indefinite" type="translate" values="0 5 ; 0 -5; 0 5"/>
+  </rect>
+  <rect transform="translate(0 3.2)" x="70" y="35" width="5" height="30">
+   <animateTransform attributeName="transform" begin="0.5" dur="1s" repeatCount="indefinite" type="translate" values="0 5 ; 0 -5; 0 5"/>
+  </rect>
+ </g>
+</svg>
