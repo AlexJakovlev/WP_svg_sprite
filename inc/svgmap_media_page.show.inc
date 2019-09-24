@@ -29,7 +29,7 @@
 				<input class="svg-checkbox" type="checkbox" name="<?php print $post->ID; ?>" value="<?php print $name; ?>"<?php print $checked; ?> data-size="<?php print $post->size; ?>">
 				<span class="svg-details">
 					<img class="svg-image" src="<?php print $post->guid; ?>">
-					<span class="svg-name"><?php print $name; ?> <a href="<?php echo get_edit_post_link($post->ID); ?>" target="_blank" class="button button-small">Edit</a></span>
+					<span class="svg-name"><?php print $name; ?><span style="background: coral;margin-left: 10px;"></span><a href="<?php echo get_edit_post_link($post->ID); ?>" target="_blank" class="button button-small">Edit</a></span>
 				</span>
 			</label>
 		<?php } ?>
