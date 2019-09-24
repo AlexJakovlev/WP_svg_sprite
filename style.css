@@ -39,8 +39,9 @@
 }
 
 .svg-image {
+	overflow: auto;
 	margin: 1em;
-	max-height: 5rem;
+	height: 5rem;
 	max-width: 100%;
 	max-width: calc(100% - 2em);
 }
